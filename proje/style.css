@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: #3F474C;
+    -webkit-background-size: cover;
+    display: table;
+}
+
+#main-container {
+    display: flex;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    position: absolute;
+    left: 60%;
+    top: 23%;
+    font-weight: bold;
+
+
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.input {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    flex-direction: column;
+
+}
+
+.inp1 input {
+    width: 300px;
+    height: 10px;
+    color: black;
+    border-radius: 5px;
+    border: gray;
+    border: solid 1px;
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.inp2{
+    margin-top: 10px;
+}
+.inp2 input{
+    width: 300px;
+    height: 10px;
+    color: black;
+    border-radius: 5px;
+    border: gray;
+    border: solid 1px;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.btn1 button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 10px;
+    width: 300px;
+
+
+}
+
+.btn1 button:hover {
+    background: gray;
+    cursor: pointer;
+}
+.unt1{
+    margin-top: 10px;
+}
+.unt1 a{
+    text-decoration: none;
+    color: black;
+}
+.hr{
+    align-items: center;
+    border-bottom: 1px solid #3F474C;
+    display: flex;
+    margin: 20px 30px;
+    text-align: center;
+
+}
+.btn2 button {
+    margin-top: 30px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+
+}
+
+.btn2 button:hover {
+    background: gray;
+    cursor: pointer;
+}
+
+.ayhanOnline img{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    z-index: -1;
+
+
+}
+
+.inp3 input{
+    width: 300px;
+    height: 10px;
+    color: black;
+    border-radius: 5px;
+    border: gray;
+    border: solid 1px;
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    z-index: -1;
+
+}
+.inp4 input{
+    width: 300px;
+    height: 10px;
+    color: black;
+    border-radius: 5px;
+    border: gray;
+    border: solid 1px;
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-top: 9px;
+}
+.icons-back{
+    top: 15px;
+    left: 14px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
